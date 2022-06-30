@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cronos Accesorios</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html" class="inicio"><h2 class="logo-nombre">Cronos Accesorios</h2></a>
+			</div>
+			   <div class="menu">
+				  <nav>
+					 <ul>
+		    	       <li><a href="productos.html">Productos</a></li>
+		    	       <li><a href="ofertas.html">Ofertas</a></li>
+		    	       <li><a href="envios.html">Envios</a></li>
+		    	       <li><a href="lanzamientos.html">Lanzamientos</a></li>
+		    	       <li><a href="contacto.html">Contacto</a></li>
+		             </ul>
+				  </nav>
+			   </div>
+	    </header>
+	    	<section>
+	    		<form action="envio.php">
+	    			<h1>Envios</h1>
+                    <fieldset>
+	    				<legend class="datos">Datos del Comprador</legend>
+	    				<label for="name">Nombre</label>
+	    				<input type="text" id="name">
+	    				<label for="surname">Apellido</label>
+	    				<input type="text" id="surname">
+	    				<label for="email">Email</label>
+	    				<input type="email" id="email">
+                    </fieldset>
+	    			<fieldset>
+	    				<legend>Pedido solicitado</legend>
+	    				<label for="relojes">Relojes</label>
+	    				<input type="checkbox" id="relojes" value="relojes">
+	    				<br>
+	    				<label for="billeteras">Billeteras</label>
+	    				<input type="checkbox" id="billeteras" value="billeteras">
+	    				<br>
+	    				<label for="anteojos">Anteojos</label>
+	    				<input type="checkbox" id="anteojos" value="anteojos">
+	    				<br>
+	    				<label for="collares">Collares</label>
+	    				<input type="checkbox" id="collares" value="collares">
+	    				<br>
+	    				<label form="pulseras">Pulseras</label>
+	    				<input type="checkbox" id="pulseras" value="pulseras">
+	    			</fieldset>
+	    			<fieldset>
+	    				<legend>Envios</legend>                                                              
+	    				<label for="Local">Retirar en el local</label>
+	    				<input type="radio" id="local" name="envio" value="local">
+	    				<br>
+	    				<label for="domicilio">Envio a domicilio</label>
+	    				<input type="radio" id="domicilio" name="envio" value="domicilio">
+	    				<select name="provincia" id="">
+	    					<option value="caba">CABA</option>
+	    					<option value="buenos aires">Buenos Aires</option>
+	    				</select>
+	    				<input type="submit" value="Enviar">
+	    			</fieldset>
+	    		</form>
+	    	</section>
+	    </main>
+	    <footer class="pie-pagina">
+        	<div class="box-1">
+        		<h2>SOBRE NOSOTROS</h2>
+        		<p>Somos una pagina que nos dedicamos unicamente a la venta de accesorios para que puedan lucir todo su estilo en cualquier momento</p>
+        		<p>Llevamos mas de 10 años estando en el mercado, 10 años que ustedes nos acompañan, siempre estamos mejorando para brindarles una muy buena atencion</p>
+        	</div>
+        	<div class="box-img">
+        		<h2>SIGUENOS</h2>
+        		<div class="red-social">
+        	       <a href="https://www.facebook.com/">
+        		   <img src="facebook.png">
+        	       </a>
+        	       <a href="https://www.instagram.com/">
+        		   <img src="instagram.png">
+        	       </a>
+                   <a href="https://twitter.com/">
+            	   <img src="twitter.png">
+                   </a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
